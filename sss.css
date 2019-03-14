@@ -1,0 +1,107 @@
+body {
+    background-image: url('signup-bg.jpg');
+    font-size: 14px;
+    font-weight: 400;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover; 
+    box-sizing: border-box;
+}
+.mainDiv
+{
+    background-color:#FFF;
+    margin: 50px auto ; 
+    width:670px;
+    border-radius: 2%;
+    padding: 50px 100px;
+}
+h2
+{
+
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: #222;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+input
+{
+    width: 90%;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-submit {
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #74ebd5, #9face6);
+    cursor: pointer;
+}
+.ch
+{
+    width: 3%;
+}
+/*
+#showpass
+{
+    
+    display: inline;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    float: right;
+    right: 290px;
+     bottom: 128px;
+  
+    cursor: pointer;
+   
+}
+.labelclass{
+    display: inline;
+    position: absolute;
+    float:right;
+    width:40px;
+    font-size: 18px;
+    bottom: 130px;
+   right: 330px;
+    
+   
+   
+}
+*/
+
+#par1
+{
+    display: none ;
+}
+
+span{
+   width: 8px;
+    float: right;
+   text-align: right;
+    margin-right: 40px;
+    margin-top: 12px;
+    display: inline;
+    white-space: nowrap
+     
+}

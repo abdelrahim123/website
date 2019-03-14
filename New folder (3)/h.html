@@ -1,0 +1,42 @@
+<html>
+    <head>
+       <title>Html Taks</title>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="sss.css">
+    </head>
+<body>
+   <div class="mainDiv">
+            <form action="hh.html" id="information">
+                <h2>create account</h2>
+                <div class="form-group">
+                    <input class="input" name="fullName"id="FullName" type="text" placeholder="Your Full Name" required  onblur=" checkFullName()" onfocus="focusName()" onmouseout="blurName()"> <span id="message1"></span> 
+                <!--    <p id="par1">*Minlength shouldnt be less than 10 word</p> -->
+                </div>
+                <div class="form-group">
+                    <input class="input" name="Email" id="Email" type="email" placeholder="Email" required onblur="checkEmail()"onfocus=" focusEmail()" onmouseout=" blurEmail()"><span id="message2"></span>
+                </div>
+                <div class="form-group">
+                    <input class="input" name="PhoneNumber" id="phone" type="text" placeholder="Your Phone Number" required onblur="checkPhone()" onfocus="focusPhone()" onmouseout="blurPhone()"> <span id="message3"></span>
+                </div>
+                <div class="form-group">
+                    <input class="input" id="card" name="natonal card" type="text"placeholder="Your National Number" required onblur="checkNationalNum()" onfocus="focusCard()" onmouseout="blurcard()"><span id="message4"></span>
+                </div>
+                <div class="form-group">
+                    <input class="input" name="password" id="p" type="password" placeholder="Your Password" onfocus="focusPassword()" onmouseout="blurPass()" onblur="checkPass()"> <span id="message5"></span>
+                    <!--<label class="labelclass">Show</label>
+                     <input type="checkbox" name="showPassword" value="show" id="showpass">-->
+                    
+                </div>
+                <div class="form-group">
+                    <input class="input" id="p1" type="password" placeholder="Repeat Passwor" onfocus="focusPassCon()" onmouseout="blurPassCon()"onblur="confirmForm()" ><span id="message6"></span>
+                <!--     <button id="butt1">Show</button> -->
+                </div>        
+                <div class="form-group"><input class="form-submit" type="submit" value="Submit" onclick="displayForm()"></div>
+            </form>
+    </div>
+    
+    <script src="j.js"></script>
+    </body>
+
+
+</html>

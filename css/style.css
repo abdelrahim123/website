@@ -1,0 +1,552 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+/*=============START HEADER================*/
+.header {
+    background-image: url("../images/header.jpg");
+    background-size: 100% 100% ;
+    width: 100%;
+    height: 640px;
+}
+/*=============END HEADER================*/
+/*=============START NAVBAR================*/
+.navBarContainer {
+    width:100%;
+    height: 50px; 
+    overflow: hidden;
+    background:rgba(0,0,0,0.1);
+    font-weight:bold;
+    font-size: 18px; 
+}
+.logo {
+    float: left;
+    position: relative;
+    top:16px;
+    left: 25px;
+}
+.logo a{
+    color: rgba(255,255,255,.7);
+    text-decoration: none;
+}
+.logo a:hover{
+   color: white;
+}
+
+.navBar {
+    float: right;
+    position: relative;
+    right: 20px;
+    bottom: 4px;
+}
+.navBar li {
+    list-style-type: none;
+    display: inline;
+}
+.navBar li a{
+    text-decoration: none;
+    color:rgba(255,255,255,.7);
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px; 
+    padding-bottom: 17px;
+}
+.navBar li a:hover {
+    color: white;
+    border-bottom:2px solid #FFF ; 
+}
+.hrHeader {
+    
+    position: relative;
+    bottom: 1px;
+    font-size: 0.1px;
+    border-width: 0.5px;
+    border-color:#807D7B;
+  
+}
+.lastLiNave
+{
+    background-color: #F05F40 ; 
+    padding: 20px 20px 20px 20px ;
+}
+/*=============END NAVBAR================*/
+/*=============START BACKGROUND================*/
+.centerBlock {
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 65px;
+    color:white;
+    
+}
+.centerBlock h1{
+    text-align: center;
+    font-size: 45px;
+}
+.centerBlock p {
+    text-align: center;
+    color: #A7A3A4;
+    margin-top: 27px;
+}
+.hrBackground {
+    
+    border:2px solid #F05F40;
+    max-width: 50px;
+}
+.centerBlock .orange{
+       margin-top: 75px;   
+}
+.centerBlock .orange a{
+    text-decoration: none;
+    background:#F05F40;
+    border-radius: 20px;
+    padding: 15px 30px;
+}
+.centerBlock .orange a:hover{
+   background: #EE4B28;
+}
+
+
+/*=============END BACKGROUND================*/
+/*=============Start Srvices=================*/
+.h3Services
+{
+    margin: 0;
+    padding: 0;
+    color: #222;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 80px;
+}
+.mainServices
+{
+    padding:20px ; 
+    display:flex ; 
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.divServices
+{  
+    width:250px ;
+    color:#000; 
+    margin-right: 10px;
+    padding-right:10px;
+}
+.imgServices
+{
+   width:100% ; 
+   height:50px;
+}
+img
+{
+    width:95%;
+    height:100%; 
+}
+.pServices
+{
+    text-align: center ; 
+    line-height: 0px;
+    text-transform: uppercase;
+    font-weight: bold; 
+    color:#333;
+}
+.pServices2
+{
+    
+    font-size:17px; 
+    margin:8px;
+    color:#444;
+    text-align: center ; 
+
+}
+.hrservices
+{
+    max-width: 50px;
+    border:2px solid #F05F40;   
+}
+/*================================End Services===============================*/
+/*================================Start Needs================================*/
+.mainNeeds
+{
+    background-color: #F05F40 ; 
+    padding:25px;
+}
+.Needscontainer
+{
+    margin: 60px auto ; 
+    width:600px;
+    
+}
+.h1Needs,.paraNeeds
+{
+    text-align: center;
+}
+.h1Needs
+{
+    font-size: 30px; 
+    margin-bottom: 30px;
+    color: #FFF;
+}
+.hrNeeds
+{
+    border: 2px solid #FFF;
+    max-width: 50px;
+}
+.paraNeeds
+{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,.7);
+}
+.butNeeds
+{
+    margin-left: 240px;
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222;
+    background-color: #fff;
+    border-color: #fff;
+    padding:15px 30px
+}
+/*================================End Needs================================*/
+/*================================Start Blogs================================*/
+.mainImages
+{
+  background-color:#222;
+  margin:100px 100px 0 0; 
+  width:100%;
+  padding-bottom: 30px;
+
+}
+.Mainh2
+{
+    text-align: center;
+    padding-top:40px;
+    color: #FFF;
+}
+.imgPhoto
+{
+	width:24.77%;
+	height:200px;
+}
+.clear
+{
+	clear:both;
+}
+.imgDiv
+{
+	display: inline;
+}
+.imgDiv:hover
+{
+	background-color: #00f ;
+    opacity: .1;
+
+}
+
+.paraBlogs{
+	text-align: center;
+	font-size: 30px;
+    color: #FFF;
+}
+.butBlogs{
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222;
+    background-color: #fff;
+    border-color: #fff;
+    padding: 15px 30px ; 
+}
+/*========================End Blogs========================*/
+/*======================Start Footer=======================*/
+.footer
+{
+    margin-top: 35px;
+    padding-top:20px;
+    padding-bottom: 70px;
+
+}
+.butFooter1
+{
+    position: absolute;
+    left: 200px;
+    width:91px;
+    height: 60px;
+}
+.butFooter2
+{
+    position: absolute;
+    right: 200px;
+    width:91px;
+    height: 60px;
+}
+.footerContainer
+{
+    margin: 60px auto ; 
+    width:900px;
+    position: relative;
+    
+}
+.FI
+{
+    width:60px;
+    height: 40px; 
+}
+.h1Footer,.paraFooter
+{
+    text-align: center;
+}
+.h1Footer
+{
+    font-size: 30px; 
+    margin-bottom: 30px;
+    color: #000;
+}
+.hrFooter
+{
+    border: 2px solid #F05F40;
+    max-width: 50px;
+}
+.paraFooter
+{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color:#333;
+}
+/*==============================End Footer=======================*/
+/*==============================Start Reservation================*/
+.mainReservation
+{
+    margin:60px;
+    color:#000;
+    overflow:hidden ; 
+}
+.leftReservation
+{
+    padding: 20px;
+    float:left;
+    height: 100% ; 
+    width:47% ; 
+    margin-right:2px;
+}
+.rightReservation
+{
+    padding-top:80px;
+    float: right;
+    height: 100%;
+    width:47%;
+}
+.mainDiv
+{
+    background-color:#FFF;
+    margin: 50px auto ; 
+    width:670px;
+    border-radius: 2%;
+    padding: 50px 100px;
+}
+.h2Resrvation
+{
+
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: #222;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input
+{
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    padding: 17px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222;
+    
+    
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-submit {
+    margin-left: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #74ebd5, #9face6);
+    cursor: pointer;
+}
+.imgReserve
+{
+    height:500px;
+}
+.contact
+{
+    padding-top:50px   ;
+    padding-bottom:50px ; 
+    overflow:hidden ;
+    background-color:#252F31  ;
+    color:white
+}
+.contact .main
+{
+    float:left ;
+    width:50% ;
+}
+.contact .main p
+{
+    color:#6A6E71
+}
+.contact .main p strong
+{
+    color:white 
+}
+.contact .exp 
+{
+    float:right ;
+    width:50% ;
+}
+.contact .exp  input[type="text"] 
+{
+    background-color:#4B5557 ;  
+    padding:10px  ;
+    color:#FFF ;
+    border:0 ;
+    width: 80%  ;
+    margin-bottom: 10px  ;
+     
+}
+.contact .exp textarea
+{
+    background-color:#4B5557 ;  
+    padding:10px  ;
+    color:#FFF ;
+    border:0 ;
+    width: 80%  ;
+    margin-bottom: 10px  ;
+    height: 250px
+}
+.contact .exp  input[type="submit"] 
+{
+    background-color:black ;  
+    padding:10px  ;
+    color:#FFF ;
+    border:0 ;
+    margin-bottom: 10px  ;
+     
+}
+    
+.contact .exp label
+{
+    display:block ;
+    margin-bottom: 10px  ;
+    color:white
+}
+
+.copy
+{
+    background-color:black ;
+    color:white ;
+    padding:1px ;
+    text-align: center 
+}
+.copy>div span
+{
+    text-align: center ; 
+}
+.copy ul li
+{
+    display: inline-block ; 
+}
+.copy ul li img
+{
+    width:20px ;
+    height: 20px ;
+    margin-right: 5px ; 
+}
+.container
+{
+    margin:auto ;
+    width:1170px ;
+}
+/*LOGIN*/
+.labeleInput,.inputForm
+{
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.containerLogin
+{
+    margin:228px auto ;
+    width:500px ;
+}
+.containerLogin input[type="submit"]
+{
+    margin-left: 35px;
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFF;
+    background-color: #000;
+    border-color: #fff;
+    padding:10px 20px
+}
+.h2Reservation
+{
+    color: #FFF;
+    text-decoration: none ; 
+    
+}
+.ulLogin
+{
+    list-style: none ; 
+}
+.liLogin
+{
+    display: inline;
+    margin-right: 10px;
+}
+.activeLog
+{
+    border-bottom: 2px solid #FFF;
+}
+.h2Reservation:hover
+{
+    border-bottom: 2px solid #FFF;
+    
+}
+#goUPButton
+{
+    display: none;
+    width:90px ; 
+    padding:10px ; 
+    background-color: #000;
+    color:#FFF ; 
+    position:fixed; 
+    right: 5px ;
+    bottom: 5px ;
+}
+
+
+
+
+

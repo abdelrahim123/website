@@ -1,0 +1,57 @@
+body {
+    background-color:#ebebeb; 
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.mainDiv
+{
+    background-color:#FFF;
+    margin: 50px auto ; 
+    width:670px;
+    border-radius: 2%;
+    padding: 50px 100px;
+    position: relative;
+}
+h2
+{
+
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: #222;
+    font-family: 'Montserrat';d
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-submit {
+    color: #fff;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #74ebd5, #9face6);
+    cursor: pointer;
+}
+input[type="button"]
+{
+    padding:10px; 
+    font-size: 15px;
+}
+#b1
+{
+    position: absolute ; 
+    bottom: 10px; 
+    right: 70px; 
+}
+#b2
+{
+    position: absolute ; 
+    bottom: 10px; 
+    right: 10px;  
+}
+
+
